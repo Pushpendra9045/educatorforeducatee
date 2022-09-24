@@ -1,24 +1,32 @@
 .head {
   margin: auto;
-  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8vh;
+  background-color: #AE97EF;
+  padding: 0px 20px;
 }
-.head h1 {
-  background: -webkit-linear-gradient(90deg, #1742b8, #37a8eedd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+.head .btns{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 600;
 }
-.profile {
-  color: #3e6cde;
+.head .login_btn{
+  color:white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 3px 5px;
+  cursor:pointer;
 }
-@media only screen and (max-width: 430px) {
-  .head {
-    width: 90%;
-  }
-  .head h1 {
-    font-size: 25px;
-  }
+
+
+
+@media screen and (max-width: 300px) {
+.head .btns{
+  font-size: 10px;
+}
+
 }

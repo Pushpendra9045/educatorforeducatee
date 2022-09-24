@@ -1,13 +1,16 @@
 import React from "react";
 import "./header.css";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import LogoDark from "../logo_dark/index.jsx";
 
 const Header = () => {
   return (
     <>
       <div className="head">
-        <h1>EducateForEducatee</h1>
-        <AccountCircleIcon className="profile"/>
+        <LogoDark />
+
+        <div className="btns">
+          <p className="login_btn">Login</p>
+        </div>
       </div>
     </>
   );
