@@ -1,0 +1,16 @@
+.head {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+.head h1 {
+  background: -webkit-linear-gradient(90deg, #1742b8, #37a8eedd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile {
+  color: #3e6cde;
+}
