@@ -6,14 +6,6 @@
   background-color: #AE97EF;
   padding: 0px 20px;
 }
-.head h1 {
-  background: -webkit-linear-gradient(90deg, #1742b8, #37a8eedd);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.profile {
-  color: #3e6cde;
-}
 .head .btns{
   display: flex;
   justify-content: center;
