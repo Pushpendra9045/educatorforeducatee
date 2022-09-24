@@ -14,3 +14,11 @@
 .profile {
   color: #3e6cde;
 }
+@media only screen and (max-width: 430px) {
+  .head {
+    width: 90%;
+  }
+  .head h1 {
+    font-size: 25px;
+  }
+}
