@@ -13,3 +13,6 @@
     align-items: center;
     gap:15px;
 }
+.footer .social-icon{
+    cursor: pointer;
+}

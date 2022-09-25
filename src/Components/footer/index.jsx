@@ -13,9 +13,9 @@ const Footer = () => {
         ©Copyright 2022 , Educator For Educatee Pvt. Ltd
       </div>
       <div className="social-icons">
-        <FacebookIcon />
-        <TwitterIcon />
-        <LinkedInIcon />
+        <FacebookIcon className="social-icon" />
+        <TwitterIcon className="social-icon" />
+        <LinkedInIcon className="social-icon" />
       </div>
     </div>
   );
