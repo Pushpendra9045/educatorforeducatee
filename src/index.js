@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Studentmainpage from './Components/student_mainpage';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Footer from "./Components/footer";
+import Header from "./Components/header";
+import HomePage from "./Components/home";
+import "./index.css";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Studentmainpage/>
+    <Header />
+    {/* <Studentmainpage/> */}
+    <HomePage />
+    <Footer />
   </React.StrictMode>
 );
-
