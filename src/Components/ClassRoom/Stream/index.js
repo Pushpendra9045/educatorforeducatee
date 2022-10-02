@@ -18,6 +18,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import HeaderClassRoom from "../../header_classroom";
 import Footer from "../../footer";
+import Class_img from "../../../Images/Study-area.jpg"
 
 const card = (
   <React.Fragment>
@@ -26,7 +27,7 @@ const card = (
         component="img"
         height="170"
         backgrouund
-        image="/static/images/cards/paella.jpg"
+        image= {Class_img}
         alt="Class Background"
       />
       <Button
@@ -54,7 +55,7 @@ const card = (
 
 const OutlinedCard = () => {
   return (
-    <Box sx={{ minWidth: 275, marginLeft: "10%", marginRight: "10%" }}>
+    <Box sx={{ minWidth: 275, maxWidth: '100vh', marginLeft: "10%", marginRight: "10%" }}>
       <Card variant="elevation">{card}</Card>
     </Box>
   );
@@ -84,7 +85,7 @@ export default function RecipeReviewCard() {
       <OutlinedCard />
       <Card
         sx={{
-          maxWidth: 1005,
+          maxWidth: '100vh',
           marginLeft: "10%",
           marginRight: "10%",
           marginTop: "5%",
@@ -104,12 +105,12 @@ export default function RecipeReviewCard() {
           title="Computer Network"
           subheader="September 25, 2016"
         />
-        <CardMedia
+        {/* <CardMedia
           component="img"
           height="194"
           image="/static/images/cards/paella.jpg"
           alt="Paella dish"
-        />
+        /> */}
         <CardContent>
           <Typography variant="body2" color="text.secondary">
             This impressive paella is a perfect party dish and a fun meal to

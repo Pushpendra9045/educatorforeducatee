@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import display_img from "../../images/home-page.jpg";
+import display_img from "../../Images/home-page.jpg";
 import Header from "../header";
 import Footer from "../footer";
 const HomePage = () => {
