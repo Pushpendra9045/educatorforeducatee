@@ -1,0 +1,23 @@
+.header-cls-copy {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #AE97EF;
+  padding: 0px 5%;
+  /* width: 100%; */
+  margin-bottom: 40px;
+}
+.header-cls-copy .options{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.pro-icon{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap:5px;
+  font-weight: 500;
+  cursor: pointer;
+}

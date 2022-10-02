@@ -2,6 +2,7 @@ import React from "react";
 import "./conference.css";
 import { useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
+import { Link } from "react-router-dom";
 //  Icons
 import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 import VolumeOffIcon from "@mui/icons-material/VolumeOff";
@@ -72,9 +73,11 @@ const Conference = () => {
             />
           </Tooltip>
         )}
-        <Tooltip title="End Call" placement="bottom">
-          <CallEndIcon className="options_icon" />
-        </Tooltip>
+        <Link to="/stream">
+          <Tooltip title="End Call" placement="bottom">
+            <CallEndIcon className="options_icon" />
+          </Tooltip>
+        </Link>
         <Tooltip title="Toggle Chat" placement="bottom">
           <ChatIcon
             data-icon="chat"

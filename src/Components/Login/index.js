@@ -87,7 +87,7 @@ export default function SignIn() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Link href="/stream" variant="body2">
+            <Link href="/student" variant="body2">
               <Button fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
                 Sign In{" "}
               </Button>
