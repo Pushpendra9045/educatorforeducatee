@@ -1,5 +1,6 @@
 import React from "react";
 import "./randquest.css";
+import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 const AskQuest = () => {
@@ -34,9 +35,11 @@ const AskQuest = () => {
               </p>
             </Button>
           </label>
-          <Button variant="contained" color="primary">
-            Submit
-          </Button>
+          <Link to="/stream">
+            <Button variant="contained" color="primary">
+              Submit
+            </Button>
+          </Link>
         </div>
       </div>
     </>

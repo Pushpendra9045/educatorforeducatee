@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
@@ -18,7 +19,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import HeaderClassRoom from "../../header_classroom";
 import Footer from "../../footer";
-import Class_img from "../../../Images/Study-area.jpg"
+import Class_img from "../../../images/Study-area.jpg";
 
 const card = (
   <React.Fragment>
@@ -27,16 +28,18 @@ const card = (
         component="img"
         height="170"
         backgrouund
-        image= {Class_img}
+        image={Class_img}
         alt="Class Background"
       />
-      <Button
-        sx={{ minWidth: 10 }}
-        variant="contained"
-        href="#contained-buttons"
-      >
-        Join Class
-      </Button>
+      <Link to="/meet">
+        <Button
+          sx={{ minWidth: 10 }}
+          variant="contained"
+          href="#contained-buttons"
+        >
+          Join Class
+        </Button>
+      </Link>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
         ClassRoom
       </Typography>
@@ -55,7 +58,14 @@ const card = (
 
 const OutlinedCard = () => {
   return (
-    <Box sx={{ minWidth: 275, maxWidth: '100vh', marginLeft: "10%", marginRight: "10%" }}>
+    <Box
+      sx={{
+        minWidth: 275,
+        maxWidth: "100vh",
+        marginLeft: "10%",
+        marginRight: "10%",
+      }}
+    >
       <Card variant="elevation">{card}</Card>
     </Box>
   );
@@ -85,7 +95,7 @@ export default function RecipeReviewCard() {
       <OutlinedCard />
       <Card
         sx={{
-          maxWidth: '100vh',
+          maxWidth: "100vh",
           marginLeft: "10%",
           marginRight: "10%",
           marginTop: "5%",
