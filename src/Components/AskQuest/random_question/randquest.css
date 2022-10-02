@@ -8,6 +8,7 @@
   height: 90vh;
 }
 textarea {
+  outline: none;
   border-radius: 10px;
   border: 3px dashed rgb(148, 145, 145);
   padding: 10px;

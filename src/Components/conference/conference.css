@@ -21,6 +21,7 @@
 }
 .conference .video_section .chat_part{
     width: 35%;
+    animation: moveslow ease 0.5s;
 }
 .conference .options{
     display: flex;
@@ -45,4 +46,14 @@
     color:white;
     transition: 0.1s;
     border-radius: 50%;
+}
+
+@keyframes moveslow {
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 35%;
+    }
 }
