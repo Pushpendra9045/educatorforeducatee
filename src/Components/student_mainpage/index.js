@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../header";
-import Footer from "../footer/index";
 import AddIcon from "@mui/icons-material/Add";
 import "./student_mainpage.css";
 const ClassCard = () => {
@@ -17,7 +15,6 @@ const ClassCard = () => {
 const Studentmainpage = () => {
   return (
     <>
-      <Header />
       <div className="maindiv">
         <a className="askquest" href="#">
           <div className="ask_cir">
@@ -35,7 +32,6 @@ const Studentmainpage = () => {
       <button className="addclass">
         <AddIcon />
       </button>
-      <Footer />
     </>
   );
 };
