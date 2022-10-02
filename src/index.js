@@ -15,7 +15,6 @@ import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Header />
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/stream" element={<Stream />} />
@@ -26,6 +25,5 @@ root.render(
       <Route path= "/signup" element={<SignUp/>}></Route>
       </Routes>
 
-    <Footer />
   </BrowserRouter>
 );
