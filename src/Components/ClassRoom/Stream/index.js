@@ -16,18 +16,21 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import HeaderClassRoom from "../../header_classroom";
+import Footer from "../../footer";
 
 const card = (
   <React.Fragment>
     <CardContent>
-    <CardMedia
-          component="img"
-          height="170"
-          backgrouund image="/static/images/cards/paella.jpg"
-          alt="Class Background"
-        />
+      <CardMedia
+        component="img"
+        height="170"
+        backgrouund
+        image="/static/images/cards/paella.jpg"
+        alt="Class Background"
+      />
       <Button
-        sx={{ minWidth: 10}}
+        sx={{ minWidth: 10 }}
         variant="contained"
         href="#contained-buttons"
       >
@@ -77,6 +80,7 @@ export default function RecipeReviewCard() {
 
   return (
     <>
+      <HeaderClassRoom />
       <OutlinedCard />
       <Card
         sx={{
@@ -159,6 +163,7 @@ export default function RecipeReviewCard() {
         </CardContent>
       </Collapse> */}
       </Card>
+      <Footer />
     </>
   );
 }

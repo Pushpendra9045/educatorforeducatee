@@ -1,9 +1,12 @@
 import React from "react";
 import "./home.css";
 import display_img from "../../images/home-page.jpg";
+import Header from "../header";
+import Footer from "../footer";
 const HomePage = () => {
   return (
     <>
+      <Header />
       <div className="homepage">
         <div className="display-text">
           <p>
@@ -21,6 +24,7 @@ const HomePage = () => {
         <p>FEATURES</p>
         <div className="feature-content"></div>
       </div>
+      <Footer />
     </>
   );
 };
