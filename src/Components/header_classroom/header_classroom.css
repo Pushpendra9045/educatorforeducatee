@@ -1,0 +1,15 @@
+.header-cls {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #AE97EF;
+  padding: 0px 5%;
+  /* width: 100%; */
+  margin-bottom: 40px;
+}
+.header-cls .options{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
