@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/randquest.css";
+import "./randquest.css";
 import { Button } from "@mui/material";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 const AskQuest = () => {

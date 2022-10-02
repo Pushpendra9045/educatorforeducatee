@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/conference.css";
+import "./conference.css";
 import { useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
 //  Icons

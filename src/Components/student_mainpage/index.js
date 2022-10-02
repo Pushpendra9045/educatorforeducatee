@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer/index";
 import AddIcon from "@mui/icons-material/Add";
-import "../Styles/student_mainpage.css";
+import "./student_mainpage.css";
 const ClassCard = () => {
   return (
     <div className="classcard">

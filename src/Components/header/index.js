@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/header.css";
+import "./header.css";
 import LogoDark from "../logo_dark/index.jsx";
 
 const Header = () => {
