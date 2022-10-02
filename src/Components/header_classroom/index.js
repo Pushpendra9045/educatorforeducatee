@@ -3,9 +3,7 @@ import "./header_classroom.css";
 import LogoDark from "../logo_dark/index.jsx";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 const HeaderClassRoom = () => {
   return (
     <>
@@ -23,6 +21,10 @@ const HeaderClassRoom = () => {
             <Tab label="Test" />
             <Tab label="Q&A" />
           </Tabs>
+        </div>
+        <div className="pro-icon">
+          <AccountCircleIcon />
+          <p>Profile</p>
         </div>
       </div>
     </>
