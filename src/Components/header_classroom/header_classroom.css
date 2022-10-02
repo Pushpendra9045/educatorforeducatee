@@ -13,3 +13,11 @@
   display: flex;
   justify-content: center;
 }
+.pro-icon{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap:5px;
+  font-weight: 500;
+  cursor: pointer;
+}
