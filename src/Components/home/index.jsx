@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "../Styles/home.css";
 import display_img from "../../images/home-page.jpg";
 const HomePage = () => {
   return (

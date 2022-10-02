@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "../Styles/footer.css";
 import LogoWhite from "../logo_white";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";

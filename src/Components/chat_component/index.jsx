@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./chat_component.css";
+import "../Styles/chat_component.css";
 import SendIcon from "@mui/icons-material/Send";
 import { useState } from "react";
 const ChatComponent = () => {
