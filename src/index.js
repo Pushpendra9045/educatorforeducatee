@@ -8,7 +8,8 @@ import Stream from "../src/Components/ClassRoom/Stream";
 import HomePage from "./Components/home";
 import Studentmainpage from "./Components/student_mainpage";
 import AskQuest from "./Components/AskQuest/random_question";
-
+import Login from "./Components/Login";
+import SignUp from "./Components/Signup";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,6 +21,9 @@ root.render(
       <Route path="/question" element={<AskQuest />} />
       <Route path="/meet" element={<Conference />} />
       <Route path="/student" element={<Studentmainpage />} />
-    </Routes>
+      <Route path= "/login" element={<Login/>}></Route> 
+      <Route path= "/signup" element={<SignUp/>}></Route>
+      </Routes>
+
   </BrowserRouter>
 );
